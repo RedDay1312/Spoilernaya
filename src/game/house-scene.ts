@@ -185,7 +185,7 @@ export class HouseScene extends Phaser.Scene {
   fitZoom() {
     const w = this.scale.gameSize.width;
     const h = this.scale.gameSize.height;
-    const zoom = Phaser.Math.Clamp(Math.min(w / 520, h / 360), 0.48, 1.15);
+    const zoom = Phaser.Math.Clamp(Math.min(w / 700, h / 500), 0.75, 1.35);
     this.cameras.main.setZoom(zoom);
   }
 
